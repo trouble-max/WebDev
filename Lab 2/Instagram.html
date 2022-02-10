@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Instagram</title>
+    <style>
+
+        body {
+            background-color: #fafafa;
+            margin: 0;
+            font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+        }
+        .main {
+            width: 100%;
+            padding-bottom: 32px;
+        }
+        .sub-main {
+            margin: 32px auto 0;
+            width: 935px;
+            text-align: center;
+        }
+        .first-block {
+            background-image: url(https://www.instagram.com/static/images/homepage/home-phones.png/43cc71bb1b43.png);
+            width: 454px;
+            height: 618px;
+            display: inline-block;
+            position: relative;
+            left: -15px;
+        }
+        .second-block {
+            width: 350px;
+            height: 606px;
+            display: inline-block;
+            vertical-align: top;
+            margin-top: 13px;
+            position: relative;
+            top: 19px;
+            left: -34.5px;
+        }
+        .border {
+            border: 1px solid rgba(var(--b6a,219,219,219),1);
+            border-radius: 1px;
+            margin: 0 0 10px;
+            padding: 10px 0;
+        }
+        .input-block {
+            background-color: #fff;
+        }
+        .text-block {
+            font-size: 14px;
+            line-height: 18px;    
+            color: #262626;
+            background-color: #fff;
+        }
+        .Instagram {
+            background-image: url(https://www.instagram.com/static/bundles/es6/sprite_core_32f0a4f27407.png/32f0a4f27407.png);
+            background-position: 0 -130px;
+            height: 51px;
+            width: 175px;
+            margin: 22px auto 36px;
+        }
+        .image-1 {
+            position: absolute;
+            top: 99px;
+            left: 151px;
+        }
+        .image-2 {
+            position: 0 -120px;
+            height: 51px;
+            width: 175px;
+        }
+        .image-3 {
+            height: 40px;
+        }
+        .link {
+            font-size: 12px;
+            text-decoration: none;
+            color: #00376b;
+        }
+        .dlink {
+            line-height: 16px;
+            padding-top: 12px;
+        }
+        .link-2 {
+            font-weight: 600;
+            font-size: inherit;
+            line-height: inherit;
+            color: #0095f6;
+        }
+        .link-3 {
+            margin-right: 8px;
+        }
+        .link-4 {
+            color: #8e8e8e;
+            font-size: 12px;
+        }
+        .lol {
+            margin: -3px 0 -4px;
+        }
+        .kek {
+            margin: 15px;
+        }
+        .text-1 {
+            color: #8e8e8e;
+            font-size: 13px;
+            font-weight: 600;
+            line-height: 15px;
+            margin: 0 18px;
+            display: inline-block;
+        }
+        .text-2 {
+            color: #385185;
+            font-weight: 600;
+            font-size: 14px;
+            display: inline-block;
+        }
+        .text-3 {
+            font-size: 14px;
+            line-height: 18px;
+            padding: 10px 0 10px 0;
+            margin-bottom: 0;
+        }
+        input::-webkit-input-placeholder {
+            font-size: 12px;
+        }
+        .enter {
+            padding: 0 40px 6px;
+        }
+        .input {
+            background-color: #fafafa;
+            border: 1px solid #e1e1e1;
+            border-radius: 4px;
+            padding: 9px 0 7px 8px;
+            height: 20px;
+            width: 258px;
+        }
+        .get-the-app {
+            margin: 10px 0 10px 0;
+        }
+        .fbook {
+            padding: 8px 40px;
+        }
+        .fbook:hover {
+            cursor: pointer;
+        }
+        .flogo {
+            background-image: url(https://www.instagram.com/static/bundles/es6/sprite_core_32f0a4f27407.png/32f0a4f27407.png);
+            background-position: -414px -259px;
+            height: 16px;
+            width: 16px;
+            display: inline-block;
+            margin-right: 3px;
+            position: relative;
+            top: 3px;
+        }
+        .line-or {
+            padding: 10px 40px 18px;
+        }
+        .dbutton {
+            padding: 8px 40px;
+        }
+        .button {
+            background-color: #b2dffc;
+            color: #fff;
+            border: 1px solid transparent;
+            border-radius: 4px;
+            font-size: 14px;
+            font-weight: 600;
+            padding: 5px 9px;
+            width: 268px;
+            height: 30px;
+        }
+        .button:hover {
+            cursor: pointer;
+            background-color: #0095f6;
+        }
+        .line-1 {
+            border-bottom: 1px solid #dbdbdb;
+            width: 102.5px;
+            position: relative;
+            top: -4px;
+            display: inline-block;
+        }
+        .line-2 {
+            border-bottom: 1px solid #dbdbdb;
+            width: 102.5px;
+            position: relative;
+            top: -4px;
+            display: inline-block;
+        }
+        .foot {
+            margin-bottom: 32px;
+        }
+        .important-links {
+            margin-top: 24px;
+        }
+        .d-il {
+            margin-bottom: 12px;
+            margin-left: 8px;
+            margin-right: 8px;
+            display: inline-block;
+        }
+        .cp-1 {
+            display: inline-block;
+        }
+        .cp-2 {
+            display: inline-block;
+        }
+        .foot {
+            text-align: center;
+        }
+        .il-1 {
+            position: relative;
+            top: -10px;
+        }
+        .il-2 {
+            position: relative;
+            top: -22px;
+        }
+        .copyright {
+            position: relative;
+            top: -34px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="sub-main">
+            <div class="first-block">
+                <div images>
+                    <img class="image-1" src="https://www.instagram.com/static/images/homepage/screenshot4.jpg/842fe5699220.jpg" alt="1">
+                </div>
+            </div>
+            <div class="second-block">
+                <div class="border input-block">
+                    <div class="Instagram"></div>
+                    <div class="enter">
+                        <input type="text" class="input"  id="email"  placeholder="Phone number, username or email address">
+                    </div>
+                    <div class="enter">
+                        <input type="text" class="input" id="pass"  placeholder="Password">
+                    </div>
+                    <div class="dbutton">
+                        <button class="button">
+                            Log In
+                        </button>
+                    </div>
+                    <div class="line-or">
+                        <div class="line-1"></div>
+                        <div class="text-1">OR</div>
+                        <div class="line-2"></div>
+                    </div>
+                    <div class="fbook">
+                        <span class="flogo"></span>
+                        <span class="text-2">Log in with Facebook</span>
+                    </div>
+                    <div class="dlink">
+                        <a href="" class="link link-1">Forgotten your password?</a>
+                    </div>
+                </div>
+                <div class="border text-block">
+                    <div class="lol">
+                        <div class="kek">
+                            Don't have an account?
+                            <a href="" class="link link-2">Sign up</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="GET-THE-APP">
+                    <p class="text-3">Get the app.</p>
+                    <div class="get-the-app">
+                        <a href="" class="link-3"><img class="image-3" src="https://www.instagram.com/static/images/appstore-install-badges/badge_ios_english-en.png/180ae7a0bcf7.png" alt=""></a>
+                        <a href=""><img class="image-3" src="https://www.instagram.com/static/images/appstore-install-badges/badge_android_english-en.png/e9cd846dc748.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div></div>
+    </div>
+    <footer class="foot">
+        <div class="important-links">
+            <div class="il-1"> 
+                <div class="d-il"><a href="" class="link link-4">Meta</a></div>
+                <div class="d-il"><a href="" class="link link-4">About</a></div>
+                <div class="d-il"><a href="" class="link link-4">Blog</a></div>
+                <div class="d-il"><a href="" class="link link-4">Jobs</a></div>
+                <div class="d-il"><a href="" class="link link-4">Help</a></div>
+                <div class="d-il"><a href="" class="link link-4">API</a></div>
+                <div class="d-il"><a href="" class="link link-4">Privacy</a></div>
+                <div class="d-il"><a href="" class="link link-4">Terms</a></div>
+                <div class="d-il"><a href="" class="link link-4">Top accounts</a></div>
+                <div class="d-il"><a href="" class="link link-4">Hashtags</a></div>
+                <div class="d-il"><a href="" class="link link-4">Locations</a></div>
+                <div class="d-il"><a href="" class="link link-4">Instagram Lite</a></div>
+            </div>
+            <div class="il-2">
+                <div class="d-il"><a href="" class="link link-4">Beauty</a></div>
+                <div class="d-il"><a href="" class="link link-4">Dance</a></div>
+                <div class="d-il"><a href="" class="link link-4">Fitness</a></div>
+                <div class="d-il"><a href="" class="link link-4">Food & drink</a></div>
+                <div class="d-il"><a href="" class="link link-4">Home & garden</a></div>
+                <div class="d-il"><a href="" class="link link-4">Music</a></div>
+                <div class="d-il"><a href="" class="link link-4">Visual arts</a></div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="cp-1 d-il link-4">
+                English (UK)
+            </div>
+            <div class="cp-2 d-il link-4">
+                © 2022 Instagram from Meta
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
